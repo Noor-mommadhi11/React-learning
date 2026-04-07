@@ -7,6 +7,7 @@ import Parent from "./components/Parentprops";
 import Greeting from "./components/Greeting";
 import ConditionalRendering from "./components/ConditionalRendering";
 import ListRendering from "./components/ListRendering";
+import SignInPage from "./components/SignInPage";
 
 function App() {
   return (
@@ -14,8 +15,9 @@ function App() {
       {/* <Greeting /> */}
 
       {/* <Parent/> */}
-      <ConditionalRendering/>
-      <ListRendering/>
+      {/* <ConditionalRendering/>
+      <ListRendering/> */}
+      <SignInPage/>
       </>
   
   );
