@@ -8,6 +8,7 @@ import Greeting from "./components/Greeting";
 import ConditionalRendering from "./components/ConditionalRendering";
 import ListRendering from "./components/ListRendering";
 import SignInPage from "./components/SignInPage";
+import RegistrationForm from "./components/RegistrationForm";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       {/* <Parent/> */}
       {/* <ConditionalRendering/>
       <ListRendering/> */}
-      <SignInPage/>
+      {/* <SignInPage/> */}
+      <RegistrationForm/>
       </>
   
   );
