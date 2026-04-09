@@ -9,6 +9,7 @@ import ConditionalRendering from "./components/ConditionalRendering";
 import ListRendering from "./components/ListRendering";
 import SignInPage from "./components/SignInPage";
 import RegistrationForm from "./components/RegistrationForm";
+import StopwatchTimer from "./components/StopwatchTimer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <ListRendering/> */}
       {/* <SignInPage/> */}
       <RegistrationForm/>
+      <StopwatchTimer/>
       </>
   
   );

@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #ecedf1, #f1eff3);
+}
+
+.stopwatch-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.stopwatch-card {
+  width: 100%;
+  max-width: 420px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 40px 30px;
+  text-align: center;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+}
+
+.stopwatch-card h1 {
+  font-size: 32px;
+  margin-bottom: 25px;
+  color: #151212;
+  letter-spacing: 1px;
+}
+
+.time-display {
+  font-size: 56px;
+  font-weight: bold;
+  color: #1d1b1b;
+  margin-bottom: 35px;
+  letter-spacing: 3px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.button-group button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 100px;
+}
+
+.button-group button:nth-child(1) {
+  background: #22c55e;
+  color: white;
+}
+
+.button-group button:nth-child(2) {
+  background: #ef4444;
+  color: white;
+}
+
+.button-group button:nth-child(3) {
+  background: #f59e0b;
+  color: white;
+}
+
+.button-group button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+.button-group button:active {
+  transform: scale(0.98);
+}
+
+@media (max-width: 480px) {
+  .time-display {
+    font-size: 42px;
+  }
+
+  .stopwatch-card h1 {
+    font-size: 26px;
+  }
+
+  .button-group button {
+    width: 100%;
+  }
+}
