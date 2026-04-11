@@ -10,6 +10,8 @@ import ListRendering from "./components/ListRendering";
 import SignInPage from "./components/SignInPage";
 import RegistrationForm from "./components/RegistrationForm";
 import StopwatchTimer from "./components/StopwatchTimer";
+import UseRef from "./components/UseRef";
+
 
 function App() {
   return (
@@ -22,6 +24,7 @@ function App() {
       {/* <SignInPage/> */}
       <RegistrationForm/>
       <StopwatchTimer/>
+      <UseRef/>
       </>
   
   );
