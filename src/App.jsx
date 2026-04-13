@@ -11,7 +11,7 @@ import SignInPage from "./components/SignInPage";
 import RegistrationForm from "./components/RegistrationForm";
 import StopwatchTimer from "./components/StopwatchTimer";
 import UseRef from "./components/UseRef";
-
+import ParentNested from "./components/ParentNested";
 
 function App() {
   return (
@@ -25,6 +25,7 @@ function App() {
       <RegistrationForm/>
       <StopwatchTimer/>
       <UseRef/>
+      <ParentNested />
       </>
   
   );
