@@ -12,6 +12,8 @@ import RegistrationForm from "./components/RegistrationForm";
 import StopwatchTimer from "./components/StopwatchTimer";
 import UseRef from "./components/UseRef";
 import ParentNested from "./components/ParentNested";
+import ParentContext from "./components/ParentContext";
+
 
 function App() {
   return (
@@ -22,10 +24,11 @@ function App() {
       {/* <ConditionalRendering/>
       <ListRendering/> */}
       {/* <SignInPage/> */}
-      <RegistrationForm/>
+      {/* <RegistrationForm/>
       <StopwatchTimer/>
       <UseRef/>
-      <ParentNested />
+      <ParentNested /> */}/
+      <ParentContext />
       </>
   
   );
