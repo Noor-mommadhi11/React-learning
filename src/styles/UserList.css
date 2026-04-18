@@ -1,0 +1,29 @@
+.user-container {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(to right, #7586d1, #764ba2);
+  min-height: 100vh;
+  color: white;
+}
+
+.user-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.user-card {
+  background: white;
+  color: black;
+  padding: 15px 25px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.user-card:hover {
+  transform: scale(1.1);
+  background: #ffd369;
+}

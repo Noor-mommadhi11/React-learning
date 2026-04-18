@@ -24,6 +24,8 @@ import Services from "./components/pages/Services";
 import WebDevelopment from "./components/pages/WebDevelopment";
 import AppDevelopment from "./components/pages/AppDevelopment";
 import UiUx from "./components/pages/UiUx";
+import UserList from "./components/UserList";
+import UserData from "./components/UserData";
 
 
 
@@ -42,7 +44,7 @@ function App() {
       <ParentNested /> */}/
       {/* <ParentContext /> */}
 
-      <BrowserRouter>
+      {/* <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
@@ -58,7 +60,15 @@ function App() {
         </Route>
       </Routes>
     </BrowserRouter>
-      </>
+       */}
+
+         <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<UserList />} />
+        <Route path="/user/:id" element={<UserData />} />
+      </Routes>
+    </BrowserRouter>
+    </>
   
   );
 }

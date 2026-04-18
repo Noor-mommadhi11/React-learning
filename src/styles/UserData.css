@@ -1,0 +1,36 @@
+.details-container {
+  text-align: center;
+  padding: 30px;
+  background: linear-gradient(to right, #ff758c, #ff7eb3);
+  min-height: 100vh;
+  color: white;
+}
+
+.details-card {
+  background: white;
+  color: black;
+  padding: 25px;
+  border-radius: 15px;
+  width: 350px;
+  margin: 20px auto;
+  text-align: left;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+}
+
+.details-card p {
+  margin: 8px 0;
+}
+
+.back-btn {
+  background: black;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.back-btn:hover {
+  background: #ffd369;
+}
