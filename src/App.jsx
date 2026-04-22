@@ -27,6 +27,7 @@ import UiUx from "./components/pages/UiUx";
 import UserList from "./components/UserList";
 import UserData from "./components/UserData";
 import ChatApp  from './components/Chatbox/ChatApp';
+import UserCards from "./components/UserCards";
 
 
 function App() {
@@ -68,7 +69,10 @@ function App() {
         <Route path="/user/:id" element={<UserData />} />
       </Routes>
     </BrowserRouter> */}
-    <ChatApp/>
+    {/* <ChatApp/> */}
+    
+
+    <UserCards/>
     </>
   
   );
