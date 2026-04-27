@@ -1,0 +1,73 @@
+/* Table container */
+.user-table {
+  width: 100%;
+  margin-top: 25px;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.user-table th {
+  background: #007bff;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  font-size: 15px;
+}
+
+/* Table rows */
+.user-table td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid ;
+  color: black !important;
+  
+}
+
+/* Hover effect */
+.user-table tr:hover {
+  background: #f9f9f9;
+}
+
+/* Input inside edit mode */
+.user-table input {
+  padding: 6px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+/* Buttons common */
+.user-table button {
+  padding: 6px 10px;
+  margin: 3px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+/* Edit */
+.edit-btn {
+  background: #28a745;
+  color: white;
+}
+
+/* Delete */
+.delete-btn {
+  background: #dc3545;
+  color: white;
+}
+
+/* Save */
+.save-btn {
+  background: #ffc107;
+  color: black;
+}
+
+/* Hover */
+.user-table button:hover {
+  opacity: 0.85;
+}

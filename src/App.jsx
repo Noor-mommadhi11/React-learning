@@ -28,6 +28,7 @@ import UserList from "./components/UserList";
 import UserData from "./components/UserData";
 import ChatApp  from './components/Chatbox/ChatApp';
 import UserCards from "./components/UserCards";
+import UserForm from './components/Crud/UserForm';
 
 
 function App() {
@@ -72,7 +73,9 @@ function App() {
     {/* <ChatApp/> */}
     
 
-    <UserCards/>
+    {/* <UserCards/> */}
+
+    <UserForm/>
     </>
   
   );
